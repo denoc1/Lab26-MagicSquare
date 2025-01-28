@@ -57,6 +57,18 @@ Write a class MagicSquare with the following instance variable and methods.  Doc
     public class MagicSquare {
         private int[][] mat;
 
+
+      /**
+       * Constructs a MagicSquare object with a predefined 2D array.
+       * 
+       * @param mat a two-dimensional array representing the square matrix.
+       * Precondition: The input matrix must be square (n x n).
+       * Postcondition: Initializes the MagicSquare object with the given matrix.
+       */
+      public MagicSquare(int[][] mat) {
+         //Implementation
+      }
+
     /**
      * Displays the matrix in a formatted manner.
      * 
